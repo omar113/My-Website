@@ -1,0 +1,150 @@
+.About {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+*{
+  position: relative;
+}
+
+.About-bg {
+  clip-path: polygon(62.5% 0%, 100% 0%, 100% 100%, 50% 100%);
+  background-color: rgb(5, 46, 99);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+
+.About-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100%;
+}
+
+.About-left:hover > .About-left-img-container {
+  transform: translate(-25px,-20px);
+  transition-duration: 0.5s;
+}
+
+.About-left:hover > .About-left-img-container.bg {
+  transform: translate(25px,20px);
+  transition-duration: 0.5s;
+}
+
+.About-right {
+  flex: 2;
+}
+
+.About-left-img-container.bg {
+  position: absolute;
+  top: 250px;
+  left: 50px;
+  background-color: rgb(5, 46, 99);
+  border: none;
+}
+
+.About-left-img-container {
+  width: 385px;
+  height: 343px;
+  border-radius: 30px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.About-left-img {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+
+.About-right-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1ac096;
+  font-size: 55px;
+  margin-top: 50px;
+}
+
+.About-right-exp {
+  display: flex;
+  margin: 50px;
+  justify-content: space-between;
+}
+
+.About-right-exp-container-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #c73557;
+  border-radius: 30px;
+  padding: 30px;
+  position: relative;
+}
+
+.About-right-exp-container-wrapper:hover {
+  opacity: 0.7;
+  transition-duration: 0.7s;
+  cursor: pointer;
+}
+
+.About-right-exp-container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.About-right-ff-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.About-right-ff {
+  display: flex;
+  margin: 50px;
+  justify-content: space-between;
+}
+
+.About-right-exp-container-title {
+  color: #172b4d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1100px) {
+  .About {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .About-left {
+    width: 100%;
+    display: none;
+  }
+
+  .About-right {
+    transform: scale(0.65);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .About-right-exp {
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,82 @@
+.Port {
+    height: 100vh;
+    padding: 0px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.Port-text {
+    margin-top: 50px;
+    width: 65%;
+}
+
+.Port-title {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.Port-desc {
+    margin: 20px 0px;
+}
+
+.Port-list {
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media screen and (max-width: 720px) {
+    .Port {
+        padding: 0px 25px;
+    }
+
+    .Port-text {
+        margin-top: 25px;
+        width: 100%;
+    }
+
+    .Port-title {
+        font-size: 30px;
+    }
+
+    .Port-desc {
+        margin: 20px 40px;
+        text-align: justify;
+    }
+
+    .Port-list {
+        margin-top: 10px;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 720px) {
+    .Port {
+        padding: 0px 25px;
+    }
+
+    .Port-text {
+        margin-top: 25px;
+        width: 100%;
+    }
+
+    .Port-title {
+        font-size: 30px;
+    }
+
+    .Port-desc {
+        margin: 20px 40px;
+        text-align: justify;
+    }
+
+    .Port-list {
+        width: 70%;
+        margin-top: 10px;
+        flex-direction: column;
+    }
+}

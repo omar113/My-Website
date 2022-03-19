@@ -1,0 +1,41 @@
+.Facts {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.Facts .Title {
+  margin: 50px;
+  color: #c63457;
+  font-size: 55px;
+}
+
+.Facts .Card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  height: 100%;
+  width: auto;
+}
+
+.Card {
+  flex: 1;
+}
+
+@media screen and (max-width: 1100px) {
+  .Facts .Title {
+    margin: 20px;
+    font-size: 35px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .Facts .Card-container {
+    flex-direction: column;
+    gap: 10px;
+    height: 80%;
+  }
+}
