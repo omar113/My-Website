@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/My-Website/static/css/main.d61eac90.css",
+    "main.js": "/My-Website/static/js/main.1a755f89.js",
+    "static/media/me.png": "/My-Website/static/media/me.5ca495ed767cb43f23b8.png",
+    "static/media/Covidoo-Tracker.PNG": "/My-Website/static/media/Covidoo-Tracker.9319baaea2c63453ad6e.PNG",
+    "static/media/skills.jpg": "/My-Website/static/media/skills.cd770babe08c583b6718.jpg",
+    "static/media/Todo-list.PNG": "/My-Website/static/media/Todo-list.3b11aac1d7ed15d05cee.PNG",
+    "index.html": "/My-Website/index.html",
+    "main.d61eac90.css.map": "/My-Website/static/css/main.d61eac90.css.map",
+    "main.1a755f89.js.map": "/My-Website/static/js/main.1a755f89.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d61eac90.css",
+    "static/js/main.1a755f89.js"
+  ]
+}
