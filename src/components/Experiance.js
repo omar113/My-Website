@@ -6,11 +6,11 @@ const Experiance = ({ lang, level }) => {
   return (
     <div className="Exp">
       <div className="Exp-lang-container">
-        <BsFillCheckCircleFill />
-        <h3>{lang}</h3>
+        <BsFillCheckCircleFill className="Exp-check"/>
+        <h3 className="Exp-lang">{lang}</h3>
       </div>
       <div className="Exp-level-container">
-          <h5>{level}</h5>
+          <h5 className="Exp-level">{level}</h5>
       </div>
     </div>
   );

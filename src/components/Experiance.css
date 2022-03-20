@@ -2,22 +2,35 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 7vw;
 }
 
 .Exp-lang-container {
   flex: 1;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 0.5vw;
   color: #172b4d;
   margin-left: 0;
   margin-right: auto;
 }
 
+.Exp-lang {
+  font-size: 1vw;
+}
+
+.Exp-level {
+  font-size: 0.69vw;
+}
+
+.Exp-check {
+  font-size: 1vw;
+}
+
 .Exp-level-container {
   flex: 1;
   display: flex;
-  margin-left: 20px;
+  margin-left: 1.3vw;
   color: rgb(92, 27, 27);
   margin-right: auto;
 }

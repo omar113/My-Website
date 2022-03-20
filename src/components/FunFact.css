@@ -1,22 +1,24 @@
 .Facts {
   height: 100vh;
   display: flex;
+  min-width: 0;
   align-items: center;
   flex-direction: column;
   overflow: hidden;
 }
 
 .Facts .Title {
-  margin: 50px;
+  margin: 2.5vw;
   color: #c63457;
-  font-size: 55px;
+  font-size: 2.9vw;
 }
 
 .Facts .Card-container {
   display: flex;
+  min-width: 0;
   align-items: center;
   justify-content: space-between;
-  gap: 80px;
+  gap: 4vw;
   height: 100%;
   width: auto;
 }
