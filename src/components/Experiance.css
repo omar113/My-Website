@@ -34,3 +34,29 @@
   color: rgb(92, 27, 27);
   margin-right: auto;
 }
+
+@media screen and (max-width: 1100px) {
+  .Exp {
+    width: 14vw;
+  }
+
+  .Exp-lang-container {
+    gap: 1vw;
+  }
+
+  .Exp-lang {
+    font-size: 2vw;
+  }
+
+  .Exp-level {
+    font-size: 1.4vw;
+  }
+
+  .Exp-check {
+    font-size: 2vw;
+  }
+
+  .Exp-level-container {
+    margin-left: 2.6vw;
+  }
+}

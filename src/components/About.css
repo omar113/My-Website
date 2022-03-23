@@ -136,27 +136,41 @@
 }
 
 @media screen and (max-width: 1100px) {
-  .About {
-    flex-direction: column;
-    text-align: center;
-  }
-
   .About-left {
-    width: 100%;
     display: none;
   }
 
   .About-right {
-    transform: scale(0.65);
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 
   }
 
   .About-right-exp {
     flex-direction: column;
-    gap: 20px;
-    width: 100%;
+  }
+
+  .About-right-title {
+    font-size: 6vw;
+  }
+
+  .About-right-exp-container-wrapper {
+    height: 32vw;
+    width: 32vw;
+  }
+
+  .About-right-exp-container {
+    gap: 25px;
+  }
+
+  .About-right-exp-container-title {
+    color: #172b4d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5vw;
+    margin-bottom: 1vw;
   }
 }

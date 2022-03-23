@@ -4,6 +4,10 @@
   overflow: hidden;
 }
 
+.Intro-mobile-alert {
+  display: none;
+}
+
 .Intro-left {
   flex: 1;
   display: flex;
@@ -98,6 +102,10 @@
   .Intro {
     flex-direction: column;
     padding: 20px;
+  }
+
+  .Intro-mobile-alert {
+    display: flex;
   }
 
   .Intro-name {
