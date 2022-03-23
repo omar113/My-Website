@@ -6,6 +6,7 @@
     align-items: center;
     text-align: center;
     background-color: aliceblue;
+    overflow: hidden;
 }
 
 .Port-text {
@@ -33,6 +34,7 @@
 @media screen and (max-width: 720px) {
     .Port {
         padding: 0px 25px;
+        overflow: hidden;
     }
 
     .Port-text {
@@ -45,7 +47,7 @@
     }
 
     .Port-desc {
-        margin: 20px 40px;
+        margin: 1vw 0vw;
         text-align: justify;
     }
 
@@ -70,7 +72,7 @@
     }
 
     .Port-desc {
-        margin: 20px 40px;
+        margin: 1vw 0vw;
         text-align: justify;
     }
 
